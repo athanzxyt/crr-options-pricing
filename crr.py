@@ -1,14 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Jul 14 17:44:40 2019
-
-@author: mattiacalzetta
-"""
 
 import numpy as np
 
-def BinomialTreeCRR(type, S0, K, r, sigma, T, N=200 ,american="false"):
+def BinomialTreeCRR(type, S0, K, r, sigma, T, N=200, american="false"):
     """
     Params:
         type: C (call) or P (put)
